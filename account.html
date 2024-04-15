@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Account</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reset -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap-grid.min.css"> -->
+
+  <!-- User -->
+  <link rel="stylesheet" href="css/config.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/account.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__body container">
+      <a href="" class="header__logo logo">
+        <img src="img/logo/logo.png" alt="" class="header__logo__pic logo__pic">
+        <span class="header__logo__text logo__text">Go Home Sharing</span>
+      </a>
+      <div class="header__burger">
+        <div class="header__burger-item" id="head_bg_1"></div>
+        <div class="header__burger-item" id="head_bg_2"></div>
+        <div class="header__burger-item" id="head_bg_3"></div>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="index.html" class="header__list-link">Главная</a>
+          </li>
+          <li class="header__list-item">
+            <a href="" class="header__list-link">Промо</a>
+          </li>
+          <li class="header__list-item">
+            <a href="" class="header__list-link">Проверить бронирование</a>
+          </li>
+          <li class="header__list-item">
+            <a href="" class="header__list-link">О сервисе</a>
+          </li>
+        </ul>
+        <a href="#" class="header__app">Мобильное приложение</a>
+        <div class="header__copyright copyright">
+          <span class="header__copyright__company copyright__company">
+            <span>Go Home Sharing</span> с 2021 г.
+          </span>
+        </div>
+      </nav>
+      <div class="header__icons">
+        <div class="header__icons__apps">
+          <a href="" class="header__icons__apps-item header__icons-item ">
+            <i class="header__icons-item__pic icon-telegram"></i>
+
+            <span class="header__icons-item__text">Telegram</span>
+          </a>
+          <a href="" class="header__icons__apps-item header__icons-item ">
+            <i class="header__icons-item__pic icon-whatsapp">
+              <span class="path1"></span>
+              <span class="path2"></span>
+            </i>
+
+            <span class="header__icons-item__text">Whatsapp</span>
+          </a>
+        </div>
+        <a href="" class="header__icons__faq header__icons-item icon-question"></a>
+      </div>
+      <button class="header__account">
+        <i class="icon-account"></i>
+        Алексей
+      </button>
+    </div>
+  </header>
+
+  <section class="private">
+    <div class="private__head">
+      <div class="container">
+        <h1>Личный кабинет</h1>
+      </div>
+    </div>
+    <div class="private__body">
+      <div class="container">
+        <nav class="private__menu">
+          <h2 class="private__header">Профиль</h2>
+          <div class="private__profile">
+            <img class="private__profile__photo" src="img/attachements/profile_avatar_1.png" alt="">
+            <h4 class="private__profile__name">Алексей</h4>
+            <span class="private__profile__ratig">
+              <i class="icon-star"></i>Рейтинг: 4.5
+            </span>
+          </div>
+          <ul class="private__list">
+            <li class="private__list-item">Помощь</li>
+            <li class="private__list-item">Избранное</li>
+            <li class="private__list-item">Безопасность</li>
+            <li class="private__list-item">История заказов</li>
+            <li class="private__list-item">Способы оплаты</li>
+            <li class="private__list-item">Служба поддержки</li>
+            <li class="private__list-item exit">Выйти</li>
+          </ul>
+        </nav>
+        <div class="private__content">
+          <div class="private__content-item help">
+            <h2 class="private__header">Помощь</h2>
+            <!-- <div class="private__desc">
+                        <h3 class="private__subheader">Заголовок</h3>
+                        <p class="private__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                    </div> -->
+            <div class="private__dropdown">
+              <h2 class="private__subheader">Вопрос-ответ</h2>
+              <div class="private__dropdown-item active">
+                <h4 class="private__dropdown__title">Каким образом можно снять квартиру на неделю?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Возможно ли изменить дату заселения или поменять квартиру?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Доступ в квартиры круглосуточный?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Как восстановить логин или пароль от Go Home Sharing?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Как зарегистрироваться?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Что делать, если я, не могу пройти верификацию по паспорту?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Что делать, если я не помню почту или телефон, на которые регистрировался?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Можно ли отменить бронирование?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Если мне нужно отменить бронирование, придется ли платить штраф за его отмену?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Можно ли изменить даты в бронировании?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Какие способы оплаты вы принимаете?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Нужно ли вносить залог или предоплату?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Могу ли я оплатить проживание не с той карты, которая была использована при бронировании?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Кто и когда спишет предоплату с моей банковской карты?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Я не могу найти свое электронное подтверждение. Что мне делать?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Цены указаны на человека или за номер?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Могу ли я оформить бронирование без банковской карты?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Могу ли я забронировать номер для себя, воспользовавшись не принадлежащей мне банковской картой?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Я желаю выехать из квартиры позже указанного времени регистрации отъезда. Что следует предпринять?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Как узнать время заезда и отъезда в объекте размещения? </h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Можно ли курить в арендованной квартире?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">Могу я оформить аренду квартиры на себя и передать её в пользование своим знакомым?</h4>
+                <div class="private__dropdown__container">
+                  <p class="private__dropdown__info">Вы можете обратиться к агенту поддержки или позвонить по номеру: <span>8 (912) 345 67 89.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="private__content-item favorite">
+            <h2 class="private__header">Избранное</h2>
+            <div class="private__dropdown">
+              <h2 class="private__subheader">Список</h2>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item active">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="private__dropdown-item">
+                <h4 class="private__dropdown__title">
+                  <i class="icon-arrow-top"></i>Москва, ул. Пречистенская набержная, д. 13с1 <i class="icon-close"></i>
+                </h4>
+                <div class="private__dropdown__container">
+                  <div class="private__dropdown__info">
+                    <div class="private__object object">
+                      <p class="object__desc private__oobject__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</p>
+                      <div class="private__object__slider object__slider slider">
+                        <div class="object__slider__row slider__row">
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                          <div class="object__slider__item slider__item">
+                            <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                          </div>
+                        </div>
+                        <div class="object__slider__dots slider__dots">
+                          <button class="object__slider__dots-item slider__dots-item active"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                          <button class="object__slider__dots-item slider__dots-item"></button>
+                        </div>
+                        <button class="object__slider__toggle slider__toggle prev">
+                          <i class="icon-arrow-left"></i>
+                        </button>
+                        <button class="object__slider__toggle slider__toggle next">
+                          <i class="icon-arrow-right"></i>
+                        </button>
+                      </div>
+                      <div class="object__content private__object__content">
+                        <button class="object__btn">Арендовать</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="private__content-item security">
+            <h2 class="private__header">Безопасность</h2>
+            <div class="private__desc">
+              <h3 class="private__subheader">Безопасность пользовательских данных</h3>
+              <p class="private__text">Хранение пользовательских данных происходит в соответствии с требованиями законодательства.</p>
+              <p class="private__text">Онлайн-проверка паспорта предотвращает мошенничество в сфере аренды жилья. Чтобы избежать таких ситуаций, Go Home Sharing вводит автоматизированную проверку документов при бронировании аренды жилья.</p>
+              <p class="private__text">Онлайн-верификация по паспорту — позволяет защититься от злоумышленников, повысить уровень доверия к пользователям, а также пресечь участие несовершеннолетних в процессе бронирования аренды жилья.</p>
+              <p class="private__text">Взаимодействие с сервисом моментального бронирования аренды жилья - гарантия того, что вы защищены политикой конфиденциальности. Мы предлагаем воспользоваться безопасными способами внесения оплаты бронирования через наш сайт. При оплате банковской картой Go Home Sharing не получает данные вашей карты и ваш платеж проходит по защищенному и зашифрованному каналу нашего банка-партнера.</p>
+              <p class="private__text">Мы не сможем защитить Вас от мошенничества и других нарушений безопасности, если ваше бронирование было совершено и оплачено за пределами нашего сайта.</p>
+            </div>
+            <div class="private__desc">
+              <h3 class="private__subheader">Важно!</h3>
+              <p class="private__text">Сотрудники Go Home Sharing не несут ответственности за забытые, утерянные или оставленные в квартире вещи. Убедительная просьба не забывать вещи. Если Вы оставили свою или обнаружили чужую вещь, обратитесь к агенту поддержки или позвоните по номеру: 8 (912) 345 67 89.</p>
+              <p class="private__text">В арендованном помещении нельзя производить переоборудование и оформление помещения или устанавливать какое - либо оборудование (укрепление дверей, замена замков, установка охранных систем и т.д.). Надеемся на бережное отношение к имуществу, находящемуся в жилом помещении, устранение/возмещение последствий аварий, произошедших по вине арендатора. В противном случае предусмотрены штрафы за порчу имущества. С ценами вы можете ознакомиться при въезде в квартиру.</p>
+            </div>
+          </div>
+          <div class="private__content-item history">
+            <h2 class="private__header">История заказов</h2>
+            <div class="private__history">
+              <ul class="private__history__year">
+                <li class="private__history__year-item active">2021</li>
+                <li class="private__history__year-item">2020</li>
+                <li class="private__history__year-item">2019</li>
+              </ul>
+              <ul class="private__history__month">
+                <li class="private__history__month-item all active">Все</li>
+                <li class="private__history__month-item">Январь</li>
+                <li class="private__history__month-item">Февраль</li>
+                <li class="private__history__month-item">Март</li>
+                <li class="private__history__month-item">Апрель</li>
+                <li class="private__history__month-item">Май</li>
+                <li class="private__history__month-item">Июнь</li>
+                <li class="private__history__month-item">Июль</li>
+                <li class="private__history__month-item">Август</li>
+                <li class="private__history__month-item">Сентябрь</li>
+              </ul>
+              <div class="private__history__days">
+                <div class="dropdown__history__days__list active">
+                  <li class="private__history__days__list-item private__dropdown-item active">
+                    <h4 class="private__dropdown__title">
+                      <i class="icon-arrow-top"></i>Заказ G0001210908 от 08.09.2021<i class="icon-status yellow">Не оплачено</i>
+                    </h4>
+                    <div class="private__dropdown__container">
+                      <div class="private__history__item private__dropdown__info">
+                        <h4 class="private__history__item__price">3000 руб </h4>
+                        <h5 class="private__history__item__time">
+                          <i class="icon-clock"></i>23.04.2021 17:00 - 24.04.2021 17:00
+                        </h5>
+                        <h4 class="private__history__item__header">Москва, ул. Пречистенская набержная, д. 13с1 </h4>
+                        <h5 class="private__history__item__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</h5>
+                        <div class="private__history__item__slider slider">
+                          <div class="private__history__item__slider__container slider__container">
+                            <div class="private__history__item__slider__row slider__row">
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                            </div>
+                            <button class="private__history__item__slider__toggle-item slider__toggle prev">
+                              <i class="icon-arrow-left"></i>
+                            </button>
+                            <button class="private__history__item__slider__toggle-item slider__toggle next">
+                              <i class="icon-arrow-right"></i>
+                            </button>
+                          </div>
+                          <div class="private__history__item__slider__dots slider__dots">
+                            <div class="private__history__item__slider__dots-item slider__dots-item active"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="private__history__days__list-item private__dropdown-item">
+                    <h4 class="private__dropdown__title">
+                      <i class="icon-arrow-top"></i>Заказ G0001210908 от 08.09.2021<i class="icon-status gray">Оплачен</i>
+                    </h4>
+                    <div class="private__dropdown__container">
+                      <div class="private__history__item private__dropdown__info">
+                        <h4 class="private__history__item__price">3000 руб </h4>
+                        <h5 class="private__history__item__time">
+                          <i class="icon-clock"></i>23.04.2021 17:00 - 24.04.2021 17:00
+                        </h5>
+                        <h4 class="private__history__item__header">Москва, ул. Пречистенская набержная, д. 13с1 </h4>
+                        <h5 class="private__history__item__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</h5>
+                        <div class="private__history__item__slider slider">
+                          <div class="private__history__item__slider__container slider__container">
+                            <div class="private__history__item__slider__row slider__row">
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                            </div>
+                            <button class="private__history__item__slider__toggle-item slider__toggle prev">
+                              <i class="icon-arrow-left"></i>
+                            </button>
+                            <button class="private__history__item__slider__toggle-item slider__toggle next">
+                              <i class="icon-arrow-right"></i>
+                            </button>
+                          </div>
+                          <div class="private__history__item__slider__dots slider__dots">
+                            <div class="private__history__item__slider__dots-item slider__dots-item active"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="private__history__days__list-item private__dropdown-item">
+                    <h4 class="private__dropdown__title">
+                      <i class="icon-arrow-top"></i>Заказ G0001210908 от 08.09.2021<i class="icon-status gray">Завершен</i>
+                    </h4>
+                    <div class="private__dropdown__container">
+                      <div class="private__history__item private__dropdown__info">
+                        <h4 class="private__history__item__price">3000 руб </h4>
+                        <h5 class="private__history__item__time">
+                          <i class="icon-clock"></i>23.04.2021 17:00 - 24.04.2021 17:00
+                        </h5>
+                        <h4 class="private__history__item__header">Москва, ул. Пречистенская набержная, д. 13с1 </h4>
+                        <h5 class="private__history__item__desc">2 комнаты, 1 двуспальная кровать, кондиционер, холодильник, Wi-Fi</h5>
+                        <div class="private__history__item__slider slider">
+                          <div class="private__history__item__slider__container slider__container">
+                            <div class="private__history__item__slider__row slider__row">
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                              <div class="private__history__item__slider__item slider__item">
+                                <img src="img/attachements/apartments_slider-item_1.png" alt="">
+                              </div>
+                            </div>
+                            <button class="private__history__item__slider__toggle-item slider__toggle prev">
+                              <i class="icon-arrow-left"></i>
+                            </button>
+                            <button class="private__history__item__slider__toggle-item slider__toggle next">
+                              <i class="icon-arrow-right"></i>
+                            </button>
+                          </div>
+                          <div class="private__history__item__slider__dots slider__dots">
+                            <div class="private__history__item__slider__dots-item slider__dots-item active"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                            <div class="private__history__item__slider__dots-item slider__dots-item"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+
+                <div class="private__history__days__empty">
+                  <i class="icon-danger"></i>По данному запросу ничего не найдено.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="private__content-item payment active">
+            <h2 class="private__header">Способы оплаты</h2>
+            <div class="private__desc">
+              <h3 class="private__subheader">На заметку</h3>
+              <div class="private__note">
+                <i class="icon-phone"> |</i> Для удобства дальнейшего использования сервиса Вы можете внести данные банковской карты или выбрать доступный способ оплаты на сайте. Например, Apple Wallet или Google Pay в своем телефоне.
+              </div>
+              <p class="bold">Cписок Ваших банковских карт:</p>
+              <br>
+              <div class="private__card__list">
+                <p class="private__card__empty">
+                  <i class="icon-danger"></i> Пока в Вашем списке нет банковских карт.
+                </p>
+              </div>
+              <form class="private__card__add ">
+                <div class="private__card">
+                  <input type="text" required class="private__card__name" placeholder="Имя Фамилия">
+                  <div class="private__card__square"></div>
+                  <input type="text" required class="private__card__number" placeholder="0000 0000 0000 0000">
+                  <input type="text" required class="private__card__date" placeholder="01/2025">
+                  <input type="text" required class="private__card__cvc" placeholder="CVC">
+                </div>
+                <button class="private__btn">Сохранить</button>
+              </form>
+              <div class="private__card__new">
+                <button class="private__btn">Добавить карту</button>
+              </div>
+
+              <!-- <img src="img/attachements/private_card.png" alt="" class="private__pic"> -->
+            </div>
+          </div>
+          <div class="private__content-item support">
+            <h2 class="private__header">Служба поддержки</h2>
+            <div class="private__desc">
+              <h3 class="private__subheader">Заголовок</h3>
+              <p class="private__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <br>
+                <br>
+              </p>
+              <p class="private__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="questions">
+    <div class="questions__body container">
+      <div class="questions__info">
+        <h1 class="questions__header">Возникли вопросы?</h1>
+        <h2 class="questions__subheader">Узнайте, как эффективно взаимодействовать с сервисом, воспользовавшись обучающими материалами, размещёнными на сайте.</h2>
+        <div class="questions__services">
+          <button class="questions__services-btn">
+            <i class="icon-message"></i>Задать вопрос
+          </button>
+          <button class="questions__services-btn">
+            <i class="icon-play"></i>О сервисе
+          </button>
+        </div>
+      </div>
+      <img src="img/attachements/questions_pic.png" alt="" class="questions__pic">
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__body container">
+      <div class="footer__menu">
+        <a href="" class="footer__menu__logo logo">
+          <img src="img/logo/logo.png" alt="" class="footer__menu__logo__pic logo__pic">
+          <span class="footer__menu__logo__text logo__text">Go Home Sharing</span>
+        </a>
+        <ul class="footer__menu__list">
+          <li class="footer__menu__list-item">
+            <a href="" class="footer__menu__list-link">Главная</a>
+          </li>
+          <li class="footer__menu__list-item">
+            <a href="" class="footer__menu__list-link">Промо</a>
+          </li>
+          <li class="footer__menu__list-item">
+            <a href="" class="footer__menu__list-link">Проверить бронирование</a>
+          </li>
+          <li class="footer__menu__list-item">
+            <a href="" class="footer__menu__list-link">О сервисе</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <button class="footer__content__item question">
+          <i class="icon-message"></i>
+          <span>Задать вопрос</span>
+        </button>
+        <a href="" class="footer__content__item telegram">
+          <i class="icon-telegram"></i>
+          <span>Telegram</span>
+        </a>
+        <a href="" class="footer__content__item whatsapp">
+          <i class="icon-whatsapp">
+            <span class="path1"></span>
+            <span class="path2"></span>
+          </i>
+          <span>Whatsapp</span>
+        </a>
+      </div>
+      <div class="footer__copyright copyright">
+        <span class="footer__copyright__company copyright__company">
+          <span>Go Home Sharing</span> с 2021 г.
+        </span>
+        <a href="https://it-touch.ru/" class="footer__copyright__developer copyright__developer" target="_blank">
+          <img src="img/logo/developer.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script> -->
+
+  <!-- Masked Input -->
+  <!-- <script src="js/maskedinput.js"></script> -->
+
+  <!-- Datepicker -->
+  <!-- <script src="js/datepicker.js"></script> -->
+
+  <!-- User -->
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/account.js"></script>
+</body>
+
+</html>

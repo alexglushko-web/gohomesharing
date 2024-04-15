@@ -1,0 +1,300 @@
+@charset 'UTF-8';
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icons.woff?81vize') format('woff');
+    font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-']
+{
+    font-family: 'icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^='icon-'] [class^='path'],
+[class*=' icon-'] [class^='path']
+{
+    font-family: 'icons' !important;
+}
+
+.icon-card:before
+{
+    content: url('./../img/icons/icon-card.svg');
+}
+
+.icon-close:before
+{
+    content: '✕';
+}
+
+.icon-success:before
+{
+    content: url('./../img/icons/succes.svg');
+}
+
+.icon-settings:before
+{
+    content: '\e91e';
+}
+
+.icon-danger:before
+{
+    content: '\e91d';
+}
+
+.icon-phone:before
+{
+    content: '\e91c';
+}
+
+.icon-like-active:before
+{
+    content: '\e91b';
+
+    color: #ed1c24;
+}
+
+.icon-arrow-bottom:before
+{
+    content: '\e91a';
+}
+
+.icon-arrow-top
+{
+    display: inline-block;
+
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.icon-arrow-top:before
+{
+    content: '\e91a';
+}
+
+.icon-arrow-right
+{
+    display: inline-block;
+
+    -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+
+.icon-arrow-right:before
+{
+    content: '\e91a';
+}
+
+.icon-arrow-left
+{
+    display: inline-block;
+
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+.icon-arrow-left:before
+{
+    content: '\e91a';
+}
+
+.icon-whatsapp
+{
+    position: relative;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.icon-whatsapp .path1:before
+{
+    color: #0f0f0f;
+}
+
+.icon-whatsapp .path2:before
+{
+    content: '\e919';
+
+    color: white;
+}
+
+.icon-account:before
+{
+    content: '\e901';
+}
+
+.icon-message:before
+{
+    content: '\e902';
+}
+
+.icon-developer .path1:before
+{
+    content: '\e903';
+
+    color: #1a1a1a;
+}
+
+.icon-developer .path2:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e904';
+
+    color: black;
+}
+
+.icon-developer .path3:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e905';
+
+    color: #1a1a1a;
+}
+
+.icon-developer .path4:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e906';
+
+    color: #1a1a1a;
+}
+
+.icon-developer .path5:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e907';
+
+    color: #fc0;
+}
+
+.icon-developer .path6:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e908';
+
+    color: white;
+}
+
+.icon-developer .path7:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e909';
+
+    color: white;
+}
+
+.icon-developer .path8:before
+{
+    margin-left: -1.09375em;
+
+    content: '\e90a';
+
+    color: white;
+}
+
+.icon-wifi:before
+{
+    content: '\e90b';
+}
+
+.icon-calendar:before
+{
+    content: '\e90c';
+}
+
+.icon-clock:before
+{
+    content: '\e90d';
+}
+
+.icon-conditioner:before
+{
+    content: '\e90e';
+}
+
+.icon-fridge:before
+{
+    content: '\e90f';
+}
+
+.icon-gameconsole:before
+{
+    content: '\e910';
+}
+
+.icon-geo:before
+{
+    content: '\e911';
+}
+
+.icon-like:before
+{
+    content: '\e912';
+}
+
+.icon-logo_pic:before
+{
+    content: '\e913';
+}
+
+.icon-play:before
+{
+    content: '\e914';
+}
+
+.icon-question:before
+{
+    content: '\e915';
+}
+
+.icon-star:before
+{
+    content: '\e916';
+
+    color: #ebd724;
+}
+
+.icon-subway:before
+{
+    content: '\e917';
+}
+
+.icon-telegram:before
+{
+    content: '\e918';
+}
+@supports (-webkit-appearance:none)
+{
+}
